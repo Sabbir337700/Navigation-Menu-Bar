@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wapper {
+    height: 100%;
+    width:330px;
+    position:relative;
+}
+
+
+
+#sidebar {
+    position:fixed;
+    height: 100%;
+    width: 275px;
+    background: rgb(85, 85, 77);
+    overflow: hidden;
+}
+
+.title {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 75px;
+    background: #333;
+    text-align: center;
+
+}
+
+.list-items {
+    position: relative;
+    background: #404040;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+}
+
+.list-items li {
+    padding-left: 55px;
+    line-height: 45px;
+    border-top: 1px solid yellowgreen;
+    border-bottom: 1px solid #333;
+    transition: all 0.3s ease;
+
+}
+
+.list-items li:hover {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 0 15px 3px black;
+
+}
+
+.list-items li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+    display: ;
+
+}
+
+.list-items li a i {
+    margin-right: 20px;
+}
+
+.icons {
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icons a {
+    margin: 0 5px;
+    color:#f2f2f2;
+    display:block;
+    height: 35px;
+    width: 35px;
+    background: #4a4a4a;
+    border: 1px solid #383838;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.icons a:hover {
+    background: #404040;
+    font-size: 1.5rem;
+}
+
